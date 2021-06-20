@@ -1,4 +1,4 @@
-package com.fatihbaser.navigationkotlin
+package com.fatihbaser.footballapp
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

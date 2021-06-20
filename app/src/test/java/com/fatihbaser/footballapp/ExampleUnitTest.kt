@@ -1,4 +1,4 @@
-package com.fatihbaser.navigationkotlin
+package com.fatihbaser.footballapp
 
 import org.junit.Test
 
