@@ -1,4 +1,4 @@
-package com.ismailhakkiaydin.football.model.fixture
+package com.fatihbaser.footballapp.model.fixture
 
 
 import com.google.gson.annotations.SerializedName

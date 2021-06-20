@@ -1,5 +1,4 @@
-package com.ismailhakkiaydin.football.model.fixture
-
+package com.fatihbaser.footballapp.model.fixture
 
 import android.os.Parcel
 import android.os.Parcelable
