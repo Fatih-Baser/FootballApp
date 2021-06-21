@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/fixtureFragment"
-        android:name="com.fatihbaser.footballapp.FixtureFragment"
+        android:name="com.fatihbaser.footballapp.ui.fixture.FixtureFragment"
         android:label="fragment_fixture"
         tools:layout="@layout/fragment_fixture" >
         <action
@@ -17,12 +17,12 @@
     </fragment>
     <fragment
         android:id="@+id/fixtureDetailFragment"
-        android:name="com.fatihbaser.footballapp.fixtureDetailFragment"
+        android:name="com.fatihbaser.footballapp.ui.fixture.fixtureDetailFragment"
         android:label="fragment_fixture_detail"
         tools:layout="@layout/fragment_fixture_detail" />
     <fragment
         android:id="@+id/teamFragment"
-        android:name="com.fatihbaser.footballapp.TeamFragment"
+        android:name="com.fatihbaser.footballapp.ui.team.TeamFragment"
         android:label="fragment_team"
         tools:layout="@layout/fragment_team" >
         <action
@@ -31,7 +31,7 @@
     </fragment>
     <fragment
         android:id="@+id/teamDetailFragment"
-        android:name="com.fatihbaser.footballapp.teamDetailFragment"
+        android:name="com.fatihbaser.footballapp.ui.team.teamDetailFragment"
         android:label="fragment_team_detail"
         tools:layout="@layout/fragment_team_detail" />
     <fragment
@@ -41,7 +41,7 @@
         tools:layout="@layout/fragment_standings" />
     <fragment
         android:id="@+id/settingFragment"
-        android:name="com.fatihbaser.footballapp.settingFragment"
+        android:name="com.fatihbaser.footballapp.SettingFragment"
         android:label="fragment_setting"
         tools:layout="@layout/fragment_setting" />
 </navigation>
