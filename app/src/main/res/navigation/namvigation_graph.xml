@@ -31,9 +31,13 @@
     </fragment>
     <fragment
         android:id="@+id/teamDetailFragment"
-        android:name="com.fatihbaser.footballapp.ui.team.teamDetailFragment"
+        android:name="com.fatihbaser.footballapp.ui.team.teamdetail.TeamDetailFragment"
         android:label="fragment_team_detail"
-        tools:layout="@layout/fragment_team_detail" />
+        tools:layout="@layout/fragment_team_detail" >
+        <argument
+            android:name="teamId"
+            app:argType="integer" />
+    </fragment>
     <fragment
         android:id="@+id/standingsFragment"
         android:name="com.fatihbaser.footballapp.standingsFragment"

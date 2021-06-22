@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
                 android:text="@{fixture.league.name}"
-                android:textSize="8sp"
+                android:textSize="13sp"
                 app:layout_constraintBottom_toBottomOf="@+id/tvFixtureCountryName"
                 app:layout_constraintStart_toEndOf="@+id/tvFixtureCountryName"
                 app:layout_constraintTop_toTopOf="@+id/tvFixtureCountryName" />
@@ -46,7 +46,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="3dp"
                 android:text="@{fixture.league.country}"
-                android:textSize="8sp"
+                android:textSize="13sp"
                 app:layout_constraintStart_toEndOf="@+id/imgFixtuteLeague"
                 app:layout_constraintTop_toTopOf="@+id/imgFixtuteLeague" />
 
@@ -55,7 +55,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@{fixture.round}"
-                android:textSize="8sp"
+                android:textSize="13sp"
                 app:layout_constraintStart_toStartOf="@+id/tvFixtureCountryName"
                 app:layout_constraintTop_toBottomOf="@+id/tvFixtureCountryName" />
 
@@ -65,7 +65,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
                 android:dayConverter="@{fixture.eventTimestamp}"
-                android:textSize="10sp"
+                android:textSize="13sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.505"
@@ -154,7 +154,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@{fixture.referee}"
-                android:textSize="10sp"
+                android:textSize="13sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tvFixtureVenue" />
@@ -164,7 +164,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@{fixture.homeTeam.teamName}"
-                android:textSize="10sp"
+                android:textSize="13sp"
                 app:layout_constraintEnd_toEndOf="@+id/imgFixtureHomeTeam"
                 app:layout_constraintStart_toStartOf="@+id/imgFixtureHomeTeam"
                 app:layout_constraintTop_toBottomOf="@+id/imgFixtureHomeTeam" />
@@ -175,7 +175,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@{fixture.awayTeam.teamName}"
-                android:textSize="10sp"
+                android:textSize="13sp"
                 app:layout_constraintEnd_toEndOf="@+id/imgFixtureAwayTeam"
                 app:layout_constraintStart_toStartOf="@+id/imgFixtureAwayTeam"
                 app:layout_constraintTop_toBottomOf="@+id/imgFixtureAwayTeam" />
